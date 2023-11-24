@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+@import url('https://fonts.googleapis.com/css?family=Concert+One');
+* {margin:0px;padding:0px;}
+
+
+body {
+	margin: 0;padding:0;margin-top:10px;margin-bottom:10px;
+}
+
+.header{
+	width:100%;height:209px;background:url(imagespro/banner.jpg) no-repeat;
+	
+	
+}
+.header h1 {
+	display: inline-block;
+	font-family: 'Shrikhand', cursive;
+	font-weight: 800;
+	font-size: 30px;
+	float: left;
+	margin-top: 10px;
+	margin-left:590px;
+	color:darkred;
+}
+#nav {
+	font-family: 'Concert One', cursive;min-height:50px;
+	background:blue;
+}
+
+#nav ul{
+	background:blue;
+	padding: 0px;margin:0px;
+	float: left;
+}
+
+#nav ul li{
+	list-style-type: none;
+	color: white;
+	float: left;
+	margin-left: 15px;
+	line-height:50px;
+	text-align:center;
+	opacity: .8;
+	
+}
+#nav ul li a{
+	color: white;
+	text-decoration: none;display:inline-block;margin-right:15px;
+}
+#nav ul li a:hover, #nav ul li a.active {
+	background:brown;
+}
+
+
+
+
+.fwimage1 {
+	background-image: url(imagespro/12.jpg);
+	width: 100%;
+	height: 650px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+
+.homesub {
+	font-family: 'Concert One', cursive;
+	margin: 0;
+	padding: 9% 5% 0% 25%;
+	font-size: 24px;
+	color: red;
+	
+}
+
+.homesignin {
+	font-family: 'Concert One', cursive;
+	margin: 0.5% 0% 0% 45%; 
+	color: white;
+	background-color: rgba(0,0,0,0.4);
+	display:inline-block;
+
+}
+.buttonhome {
+	margin: 0% 0% 0% 45%;
+	background-color: yellow;
+	color: black;
+	border: none;
+	height: 50px;
+	font-size: 1.4em;
+	padding: 0 1em;
+	cursor: pointer;
+	outline: none;
+	font-family: 'Shrikhand',cursive;
+}
+#footer {
+	min-height:35px;padding:15px;text-align:center;color:white;background:green;font-size:18px;clear:both;
+}

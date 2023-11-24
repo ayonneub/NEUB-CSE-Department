@@ -1,0 +1,86 @@
+/* 
+     Created on :
+     Author : Azhar Hussain
+     Email: azharhussain4647@gmail.com
+     Website:
+     Facebook: https://www.facebook.com/azhar.hussainmasum
+*/
+
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background: darkslategray;
+    padding: 50px 0;
+    height:20vh;
+}
+.header-left{
+    width: 40%;
+    padding-left: 30px;
+    float: left;
+}
+.header-left h1{
+    color: ghostwhite;
+}
+.header-right{
+      width: 40%;
+    padding:auto 15px;
+    float: right;
+}
+.section{
+    width: 100%;
+    height: 100vh;;
+}
+.left{
+    width: 25%;
+    float: left;
+    padding: 50px 25px;
+    background: lightslategray;
+    height: 100vh;
+}
+.left ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.left ul li{
+    
+}
+.left ul li a {
+    text-decoration: none;
+    color: navy!important;
+   background: blanchedalmond;
+    margin-bottom: 25px;
+    display: block;
+    padding: 15px 10px;
+    text-align: center;
+}
+.btn {
+    padding: 8px 15px;
+    background: #e91e63;
+    border-color: transparent;
+    color: white;
+    font-weight: bold;
+}
+.right{
+    width:75%;
+    float: right;
+    background: url("../img/slider-1.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.input-padding{
+    padding:8px;
+}
+.footer{
+    background: grey;
+    height: 100px;
+    padding: 40px 0;
+    text-align: center;
+}
